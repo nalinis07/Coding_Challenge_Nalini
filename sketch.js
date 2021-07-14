@@ -243,7 +243,7 @@ function mute()
 
 function airblow()
 {
-  Matter.Body.applyForce(fruit,{x:0,y:0},{x:0,y:0.03});
+  Matter.Body.applyForce(fruit,{x:0,y:0},{x:0,y:-0.03});
   air.play();
 }
 
